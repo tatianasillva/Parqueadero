@@ -21,21 +21,35 @@ public class Principal {
        Propietario3= new Propietario();
        Propietario4= new Propietario();
        
-       Propietario1.nivelalcohol=10;
-       Propietario2.nivelalcohol=10;
-       Propietario3.nivelalcohol=0;
-       Propietario4.nivelalcohol=0;
-       
-       
-        Propietario1.genero=
-       Propietario2.genero=
-       Propietario3.genero=
-       Propietario4.genero=
-       
-       
-
-                }
-    
+         propietario1.nivelAlcohol= 9;
+        propietario1.genero= false;
+       System.out.println("LARGO DE AQUI!!");
+        
+        propietario2.nivelAlcohol=8;
+        propietario2.genero=true;
+        
+        
+        
+        
+        
+        
+        propietario3.nivelAlcohol=0;
+        propietario3.genero=false;
+        System.out.println("Hola Doctor");
+        
+        
+        
+        propietario4.nivelAlcohol=0;
+        propietario4.genero=true;
+        System.out.println("uyyy, mami. SIGA");
+        
+        
+        
+        System.out.println(miCelador.saludar(propietario4.ebrio()));
+        
+        
+            
+    }
   
     
     
