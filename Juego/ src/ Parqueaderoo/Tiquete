@@ -1,0 +1,9 @@
+package parqueadero;
+
+/**
+ *
+ * @author Estudiantes
+ */
+public class Tiquete {
+    
+}
