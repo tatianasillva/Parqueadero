@@ -21,5 +21,22 @@ public class Propietario {
               return false;
           }
           
+            boolean persona() {
+       
+
+        if (genero == true){
+            
+            System.out.println("Mujer");
+            return true;
+
+        } else {
+            
+            System.out.println("Hombre");
+            return false;
+        }
+
+    } 
+           
+           
       }
-}
+
