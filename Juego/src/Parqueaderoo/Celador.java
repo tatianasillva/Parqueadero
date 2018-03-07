@@ -21,29 +21,27 @@ public class Celador {
     }
     
     
-    String  saludar (boolean nivelalcohol){
-        
-        if (nivelalcohol=true){
-         return "largo de aqui";
+      
          
-             
-         } else {
-                 return "uyyy";
-                 
+         String saludar(boolean nivelBorracho, boolean genero) {
+
+        if (nivelBorracho == true && genero==true) {
+            return "Largo de aqui";
+        } else {
+            return "siga";
+
+        }
     }
-       
+
+    boolean saludar(boolean ebrio) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+                 
+   
+   
    }
     
     
-    
-    String  saludar (nivelalcohol){
-        
-        if (nivelalcohol= true){
-         return "largo de aqui";
-         
-             
-         } else {
-                 return "Hola Doctor";
 }
     
 
